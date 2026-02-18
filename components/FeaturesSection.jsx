@@ -20,10 +20,10 @@ function FeaturesSection({ items }) {
       />
       <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-4">
         {items.map((feature, index) => (
-          <article key={feature.id} className="rounded-2xl border border-white/10 bg-zinc-900/70 p-4">
+          <article key={feature.id} className="rounded-2xl border border-slate-200 bg-white p-4 dark:border-white/10 dark:bg-slate-800/80">
             <FeatureIcon index={index} />
-            <h3 className="mt-2 text-sm font-semibold text-zinc-100">{feature.title}</h3>
-            <p className="mt-1 text-sm text-zinc-300">{feature.text}</p>
+            <h3 className="mt-2 text-sm font-semibold text-slate-900 dark:text-slate-100">{feature.title}</h3>
+            <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">{feature.text}</p>
           </article>
         ))}
       </div>
