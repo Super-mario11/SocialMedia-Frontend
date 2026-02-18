@@ -57,7 +57,7 @@ function LandingPage() {
               aria-checked={isDark}
               aria-label="Toggle dark mode"
             >
-              <span>{isDark ? "Dark" : "Light"}</span>
+              <span>{isDark ? "Dark On" : "Light On"}</span>
               <span
                 className={`relative h-5 w-9 rounded-full transition ${
                   isDark ? "bg-rose-500/80" : "bg-slate-300"

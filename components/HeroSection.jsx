@@ -38,14 +38,14 @@ function HeroSection({ creator, onUnlock }) {
           <div className="mt-5 space-y-3 md:flex md:max-w-md md:gap-3 md:space-y-0">
             <a
               href="/api/auth/google/start"
-              className="block w-full rounded-xl bg-white px-4 py-3 text-center text-base font-semibold text-zinc-900"
+              className="block w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-center text-base font-semibold text-zinc-900 transition hover:bg-slate-100 dark:border-white/20 dark:bg-slate-700 dark:text-white dark:hover:bg-slate-600"
             >
               Login with Google
             </a>
             <button
               type="button"
               onClick={onUnlock}
-              className="w-full rounded-xl bg-rose-500 px-4 py-3 text-base font-semibold text-white transition active:scale-[0.99]"
+              className="w-full rounded-xl bg-rose-500 px-4 py-3 text-base font-semibold text-white transition hover:bg-rose-400 active:scale-[0.99]"
             >
               Unlock Premium Content
             </button>

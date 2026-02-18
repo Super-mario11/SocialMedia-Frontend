@@ -9,7 +9,7 @@ function FinalCTASection({ onUnlock }) {
         <button
           type="button"
           onClick={onUnlock}
-          className="mt-5 w-full rounded-xl bg-white px-4 py-3 text-base font-semibold text-zinc-900 transition active:scale-[0.99]"
+          className="mt-5 w-full rounded-xl bg-rose-500 px-4 py-3 text-base font-semibold text-white transition hover:bg-rose-400 active:scale-[0.99]"
         >
           Unlock Premium Content
         </button>

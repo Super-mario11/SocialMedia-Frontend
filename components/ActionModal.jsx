@@ -11,7 +11,7 @@ function ActionModal({ isOpen, onClose }) {
         <div className="mt-4 space-y-2">
           <a
             href="/api/auth/google/start"
-            className="block w-full rounded-xl bg-white px-4 py-3 text-center text-sm font-semibold text-zinc-900"
+            className="block w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-center text-sm font-semibold text-zinc-900 transition hover:bg-slate-100 dark:border-white/20 dark:bg-slate-700 dark:text-white dark:hover:bg-slate-600"
           >
             Login with Google
           </a>

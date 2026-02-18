@@ -5,7 +5,7 @@ function GoogleLoginButton() {
       onClick={() => {
         window.location.href = "/api/auth/google/start";
       }}
-      className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm font-semibold text-slate-900 transition hover:bg-slate-100 dark:border-white/20"
+      className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm font-semibold text-slate-900 transition hover:bg-slate-100 dark:border-white/20 dark:bg-slate-700 dark:text-white dark:hover:bg-slate-600"
     >
       Login with Google
     </button>

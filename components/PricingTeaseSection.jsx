@@ -25,7 +25,7 @@ function PricingTeaseSection({ onSubscribe }) {
         <button
           type="button"
           onClick={onSubscribe}
-          className="mt-5 w-full rounded-xl bg-rose-500 px-4 py-3 text-base font-semibold text-white transition active:scale-[0.99]"
+          className="mt-5 w-full rounded-xl bg-rose-500 px-4 py-3 text-base font-semibold text-white transition hover:bg-rose-400 active:scale-[0.99]"
         >
           Subscribe Now
         </button>
